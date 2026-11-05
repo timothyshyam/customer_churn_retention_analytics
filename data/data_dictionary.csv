@@ -1,0 +1,17 @@
+field,definition
+customer_id,Unique simulated customer identifier.
+gender,Simulated customer gender category.
+age,Customer age in years.
+tenure_months,Number of months the customer has been subscribed.
+contract_type,Subscription contract duration.
+internet_service,Internet service category.
+payment_method,Recorded payment method category.
+monthly_charges,Monthly subscription charge in sample INR-equivalent units.
+total_charges,Cumulative charges; missing values are imputed as monthly_charges multiplied by tenure_months.
+support_tickets_90d,Support tickets recorded in the previous 90 days; missing values are median-imputed.
+late_payments_12m,Late payment count in the previous 12 months.
+autopay,Whether autopay is enabled.
+paperless_billing,Whether paperless billing is enabled.
+streaming_bundle,Whether a streaming bundle is included.
+churn,Simulated churn outcome (Yes/No).
+tenure_band,"Derived tenure group: 0-5, 6-11, 12-23, 24-47, or 48+ months."
